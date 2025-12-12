@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.header ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 44px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(231, 56, 56);
+    font-size: 18px;
+    font-weight: 700;
+}
+.header ul li a:hover{
+    border-bottom: solid 1px white;
+}
+.header img{
+    height: 80px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 91px;
+    padding-right: 91px;
+    background-color: rgb(8, 8, 8);
+}
+.autor1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+    background: #000000;
+    background: linear-gradient(120deg,rgba(0, 0, 0, 1) 0%, rgba(41, 41, 41, 1) 79%);
+    height: 866px;
+}
+.autor1 img{
+    height: 440px;
+    border-radius: 14px;
+    border: solid 3px rgb(255, 0, 0);
+}
+.autor1 p{
+    width: 410px;
+    font-size: 19px;
+    font-weight: 400;
+}
+.opis{
+    color: #ffffff;
+    border: solid 2px rgb(255, 0, 0);
+    padding: 19px 19px;
+    border-radius: 14px;
+}
+.opis h3{
+    padding-top: 12px;
+}
+.footer img{
+    height: 140px;
+}
+.footer{
+    background-color: rgb(48, 46, 46);
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 12px;
+}
+.footer h2{
+    color: rgb(255, 0, 0);
+    padding-top: 12px;
+}
+.footer h3{
+    color: #ffffff;
+}
+.logo1{
+    display: flex;
+    align-items: center;
+}
+.footer ul{
+    list-style-type: none;
+    padding-top: 15px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer ul li a:hover{
+    color: red;
+}
+.kontakt h3{
+    padding-top: 15px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 9px;
+}
+.copyright h3{
+    font-size: 14px;
+}
+
+
+
+
+
+
