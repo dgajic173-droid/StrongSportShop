@@ -82,6 +82,16 @@
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 12px;
+    padding-top: 12px;
+    flex-direction: column;
+}
+.pet-stavki{
+    background-color: rgb(48, 46, 46);
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    width: 100%;
 }
 .footer h2{
     color: rgb(255, 0, 0);
@@ -93,6 +103,10 @@
 .logo1{
     display: flex;
     align-items: center;
+}
+.navigacija{
+    display: flex;
+    gap: 80px;
 }
 .footer ul{
     list-style-type: none;
@@ -108,14 +122,14 @@
     color: red;
 }
 .kontakt h3{
-    padding-top: 15px;
+    padding-top: 5px;
 }
 .copyright{
     display: flex;
     justify-content: center;
     background-color: rgb(48, 46, 46);
     color: #ffffff;
-    padding: 9px;
+    padding: 7px;
 }
 .copyright h3{
     font-size: 14px;
@@ -124,7 +138,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 33px;
+    padding-top: 23px;
 }
 .mreze ul li a{
     font-size: 23px;
@@ -153,17 +167,21 @@
     padding-bottom: 93px;
 }
 .info{
-    display: block;
-    border: solid 2px #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px #3a3a3a;
     padding: 19px;
     border-radius: 16px;
-}
-.prijava{
-    display: block;
+    background-color: #585555;
 }
 .porudžbina{
     width: 100%;
-    padding: 44px;
+    padding-bottom: 44px;
+    font-size: 20px;
+    border-radius: 13px;
+    background-color: #3a3a3a;
+    color: #ffffff;
 }
 .mapa{
     width: 811px;
@@ -171,36 +189,621 @@
     border-radius: 16px;
 }
 .porucite{
-    padding-top: 50px;
-    background-color: #c7c3c3;
+    background-color: #121212;
 }
-.info input{
-    font-size: 20px;
-    padding: 9px;
-}
+
 .prijava1{
     padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    
 }
-.info h3{
-    padding-bottom: 20px;
-    padding-top: 34px;
-    background-color: red;
-    width: 200px;
+.prijava1 input{
+    width: 50%;
+    font-size: 20px;
+    padding: 9px;
+    border-radius: 13px;
+    background-color: #3a3a3a;
 }
-
-
-
+.dugme{
+    background-color: #e53935;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 12px 17px;
+    border-radius: 16px;
+    margin-top: 12px;
+}
+.dugme:hover{
+    cursor: pointer;
+    background-color: #c62828;
+}
+.pomoc{
+    padding-bottom: 19px;
+    color: #eaeaea;
+}
+.pomoc p{
+    color: #b0b0b0;
+}
+.pomoc h2{
+    color: #f2f2f2;
+}
+.tekst{
+    padding-top: 50px;
+}
+.tekst h2{
+    color: #f5f5f5;
+}
+.tekst h3{
+    color: #b8b8b8;
+}
 .galerija img{
-    height: 320px;
+    width: 480px;
 }
 .galerija{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 111px;
+    padding-bottom: 111px;
+    gap: 111px;
+    background-color: #1e1e1e;
+}
+.creatin{
+    display: flex;
+    gap: 80px;
+}
+.pozadina{
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url("../images/pexels.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    background-image: url(../images/pexels.webp);
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-.whey img{
-    height: 320px;
+.pozadina h1{
+    font-size: 60px;
+    color: #201f1f;
 }
+.motivation{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/pexels2.webp");
+    background-size: 100%;
+    background-image: url(../images/pexels2.webp);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.motivation h2{
+    font-size: 50px;
+}
+.glavna{
+    background-image: url(../images/konacna\ pozadinska.webp);
+    background-size: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.glavna h1{
+    color: rgb(255, 255, 255);
+    font-size: 63px;
+}
+.glavna h3{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+.ponuda a{
+    text-decoration: none;
+    color: white;
+    background-color: #ad1a1a;
+    padding: 12px 19px;
+    border-radius: 16px;
+    letter-spacing: 1px;
+}
+.ponuda a:hover{
+    background-color: #b42222;
+}
+.ponuda{
+    padding-top: 32px;
+}
+.zasto-mi{
+    padding-top: 22px;
+    background-color: #1e1e1e;
+    padding-bottom: 44px;
+}
+.naslov1{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(158, 152, 152);
+}
+.ikonice{
+    display: flex;
+    align-items: center;  
+    justify-content: space-evenly;
+    padding-top: 22px;
+    color: rgb(255, 255, 255);
+}
+.ikonice i{
+    font-size: 52px;
+    color: rgb(255, 255, 255);
+}
+.provereno i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vertikialna-klasa{
+    width: 1px;
+    height: 80px;
+    background-color: rgb(175, 160, 160);
+}
+
+
+.istaknute-kategorije{
+    padding-bottom: 44px;
+    padding-top: 22px;
+    background-color: #2b2b2b;
+}
+.istaknute-kategorije img{
+    width: 250px;
+    border-radius: 12px;
+}
+.naslov2{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(158, 152, 152);
+}
+.kategorije{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 22px;
+}
+.stavke{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.stavke h3{
+    background-color: #ad1a1a;
+    width: 100%;
+    text-align: center;
+    border-radius: 12px;
+}
+
+
+
+
+.najprodavaniji-proizvodi{
+    padding-bottom: 44px;
+    padding-top: 22px;
+    background-color: #1e1e1e;
+
+}
+.naslov3{
+    display: flex;
+    justify-content: center;
+    color: rgb(158, 152, 152);
+    font-size: 20px;
+}
+
+.najprodavaniji-proizvodi img{
+    width: 200px;
+    border-radius: 13px;
+    border: solid 1x #242424;
+}
+.proizvodi{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 22px;
+}
+.proizvodi-100{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.proizvodi-100 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #ad1a1a;
+    padding: 10px;
+    border-radius: 15px;
+}
+.proizvodi-100 a:hover{
+    background-color: #c62828;
+}
+.red{
+    color: rgb(238, 40, 40);
+}
+.tekst1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2b2b;
+    padding-top: 44px;
+    padding-bottom: 31px;
+}
+.tekst1 a{
+    text-decoration: none;
+    color: #dbd7d6;
+    font-weight: 500;;
+    background-color: #961919;
+    border-radius: 13px;
+    font-size: 18px;
+    padding: 10px 40px;
+}
+.tekst1 p{
+    color: rgb(223, 213, 213);
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 22px;
+}
+.tekst1 a:hover{
+    background-color: #b42222;
+}
+.popust{
+    background-image: url(../images/crvena\ pozadina1.webp);
+    height: 170px;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.popust h1{
+    color: #ffffff;
+    font-size: 53px;
+}
+.popust a{
+    background-color: rgb(243, 123, 26);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 6px 60px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.recenzije{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #2b2b2b;
+    padding: 34px 0;
+}
+.ocena{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(199, 195, 195);
+    padding: 12px 12px;
+}
+.zvezdica{
+    font-size: 22px;
+    color: rgb(219, 133, 3);
+}
+.ocena i{
+    padding: 2px;
+}
+.ocena h3{
+    padding-bottom: 12px;
+    padding: 12px;
+}
+.dobi-popust{
+    padding-bottom: 44px;
+    padding-top: 22px;
+    background-color: #1e1e1e;
+}
+.naslov4{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(158, 152, 152);
+}
+.prijava{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 18px;
+}
+.email{
+    width: 420px;
+    padding: 3px 6px;
+}
+.prijavi{
+    background-color: #b42222;
+    padding: 3px 33px;
+    color: #ffffff;
+}
+.prijavi:hover{
+    background-color: #c62828;
+    cursor: pointer;
+}
+
+
+
+
+.cela-strana{
+    background-color: #121212;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 22px;
+}
+.pozadina-cenovnika{
+    background-image: url(../images/ricardo-henri-IBlWVIGnXag-unsplash.jpg);
+    height: 291px;
+    background-size: 100%;
+    color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pozadina-cenovnika h1{
+    font-size: 38px;
+    letter-spacing: 5px;
+}
+.pozadina-cenovnika h3{
+    font-size: 21px;
+}
+
+
+
+
+
+
+.cela-strana img{
+    width: 200px; 
+    filter: drop-shadow(0 0 14px rgb(0, 170, 255, 0.25));
+}
+.cela-strana2 img{
+    width: 238px;
+    filter: drop-shadow(0 0 18px rgb(255, 80, 0, 0.5)); 
+}
+.cela-strana3 img{
+    width: 200px;
+    filter: drop-shadow(0 0 12px rgb(255, 60, 60, 0.3));
+}
+.cela-strana4 img{
+    width: 200px;
+    filter: drop-shadow(0 0 20px rgba(151, 82, 25, 0.45));
+}
+
+
+
+
+
+
+
+
+.proteini{ 
+    padding: 0 32px;
+    padding-bottom: 21px;
+    
+}
+.proteini h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    padding: 18px;
+}
+.cena{
+    font-size: 22px;
+    font-weight: 800;
+    color: #ffcc00;
+}
+.naslovi1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    padding-top: 34px;
+    padding-bottom: 44px;
+    color: #a39f9f;
+    width: 100%;  
+}
+.whey{
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding: 22px;
+    border-radius: 16px;
+    transition: 0.3s;
+    background: radial-gradient(rgba(255, 255, 255, 0.025), rgba(0, 0, 0, 0.95)); 
+}
+.whey img{
+    filter: drop-shadow(0 10px 20px rgb(0, 0, 0, 0, 0.55));
+}
+.whey:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.red-1-proteina{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 92px;  
+    padding-top: 24px;
+}
+.tekst-cene{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.workout{
+    background: radial-gradient(rgba(255, 255, 255, 0.020), rgba(0, 0, 0, 0.95));
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding: 22px;
+    border-radius: 16px;
+    transition: 0.3s;
+}
+.pre-workout h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left; 
+}
+.pre-workout{
+    padding: 0 32px;
+    padding-bottom: 21px;
+}
+.workout:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.cela-strana2{
+    background-color: #121212;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 32px;
+}
+.red-2-workout{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 92px; 
+    padding-top: 54px;
+}
+.naslovi2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    color: #a39f9f;
+    width: 100%;  
+}
+
+
+
+
+.naslovi1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    padding-top: 34px;
+    padding-bottom: 44px;
+    color: #a39f9f;
+    width: 100%;  
+}
+.red-3-kreatin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 92px; 
+    padding-top: 54px;
+}
+.cela-strana3{
+    background-color: #121212;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 32px;
+}
+.amino:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.kreatin-amino{
+    padding: 0 32px;
+    padding-bottom: 21px;
+}
+.kreatin-amino h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left; 
+}
+.amino{
+    background: radial-gradient(rgba(255, 255, 255, 0.025), rgba(0, 0, 0, 0.95));
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding: 22px;
+    border-radius: 16px;
+    transition: 0.3s;
+}
+.amino h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    padding: 18px;
+}
+.naslovi3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    padding-top: 24px;
+    padding-bottom: 14px;
+    color: #a39f9f;
+    width: 100%;  
+}
+.naslovi4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    padding-top: 24px;
+    padding-bottom: 14px;
+    color: #a39f9f;
+    width: 100%;  
+}
+.trening{
+    background: radial-gradient(rgba(255, 255, 255, 0.034), rgba(0, 0, 0, 0.95));
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding: 22px;
+    border-radius: 16px;
+    transition: 0.3s;
+}
+.trening h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    padding: 18px;
+}
+.oprema-trening h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left; 
+}
+.oprema-trening{
+    padding: 0 32px;
+    padding-bottom: 21px;
+}
+.trening:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.cela-strana4{
+    background-color: #121212;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 32px;
+}
+.red-4-oprema{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 92px; 
+    padding-top: 54px;
+}
+
+
 
 
 

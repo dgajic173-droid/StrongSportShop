@@ -1,50 +1,15 @@
 <!DOCTYPE html>
 <html lang="sr">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Kontakt</title>
-    <link rel="stylesheet" href="assets/css/style.css"/>
-</head>
-<body>
-    <header class="header">
-            <a href="index.html"><img src="assets/images/logo-removebg-preview.webp" alt="logo"></a>
-            <ul>
-                <li><a href="index.html">Početna</a></li>
-                <li><a href="o-nama.html">O nama</a></li>
-                <li><a href="cenovnik.html">Cenovnik</a></li>
-                <li><a href="galerija.html">Galerija</a></li>
-                <li><a href="#">Kontakt</a></li>
-                <li><a href="autor.html">Autor</a></li>
-            </ul>
-    </header>
-    <div class="porucite">
-        <div class="tekst">
-            <h2>Kontaktirajte nas</h2>
-            <h3>Poručite već sada</h3>
-        </div>
-        <div class="kontaktiranje">
-                 <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.3586721084616!2d20.481839876698515!3d44.81425717656821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a9609031735%3A0xc17ed71f59ac4725!2z0JLQuNGB0L7QutCwIElDVCDRiNC60L7Qu9Cw!5e0!3m2!1ssr!2srs!4v1765560542774!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="info">
-                <div class="prijava1">
-                    <input type="text" placeholder="Ime">
-                    <input type="text" placeholder="Prezime">
-                </div>
-                <div class="prijava1">
-                    <input type="text" placeholder="Broj telefon">
-                    <input type="text" placeholder="Email">
-                </div>
-                <input class="porudžbina" type="text" placeholder="Porudžbina">
-                    <h3>Poruči</h3>
-            </div>    
-        </div>
-    </div>
-    <footer class="footer">
-            <div class="logo1">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Kontakt - Kontaktirajte nas</title>
+        <link rel="stylesheet" href="assets/css/style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    </head>
+    <body>
+        <header class="header">
                 <a href="index.html"><img src="assets/images/logo-removebg-preview.webp" alt="logo"></a>
-            </div>
-            <div class="navigacija">
-                <h2>Navigacija</h2>
                 <ul>
                     <li><a href="index.html">Početna</a></li>
                     <li><a href="o-nama.html">O nama</a></li>
@@ -53,27 +18,75 @@
                     <li><a href="#">Kontakt</a></li>
                     <li><a href="autor.html">Autor</a></li>
                 </ul>
+        </header>
+        <div class="porucite">
+            <div class="tekst">
+                <h2>Kontaktirajte nas</h2>
+                <h3>Pozovite već sada</h3>
             </div>
-            
-            <div class="kontakt">
-                <h2>Kontakt</h2>
-                <h3><i class="fa-solid fa-phone"></i> 011 3290 828</h3>
-                <h3><i class="fa-regular fa-envelope"></i> dusan.gajic.4.25@ict.edu.rs</h3>
-                <h3><i class="fa-solid fa-location-dot"></i> Zdravka Čelara 16,11000 Beograd, Srbija</h3>
+            <div class="kontaktiranje">
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.3586721084616!2d20.481839876698515!3d44.81425717656821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a9609031735%3A0xc17ed71f59ac4725!2z0JLQuNGB0L7QutCwIElDVCDRiNC60L7Qu9Cw!5e0!3m2!1ssr!2srs!4v1765560542774!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <form class="info">
+                    <div class="pomoc">
+                        <h2>Potrebna vam je pomoć?</h2>
+                        <p>Naša email podrška je dostupna 24/7. Uvek smo tu da odgovorimo na vaša pitanja!</p>
+                    </div>                
+                    <div class="prijava1">
+                        <input required type="text" placeholder="Ime">
+                        <input required type="text" placeholder="Prezime">
+                    </div>
+                    <div class="prijava1">
+                        <input required type="text" placeholder="Broj telefon">
+                        <input required type="email" placeholder="Email">
+                    </div>
+                        <input class="porudžbina" type="text" placeholder="Poruka">
+                        <input class="dugme" type="submit" value="Pošalji">
+                </form>    
             </div>
-            <div class="mreze"> 
-                <ul>
-                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li><a href="https://www.facebook.com/"></a><i class="fa-brands fa-x-twitter"></i></li>
-                    <li><a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a></li>
-                    <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
-                </ul>
-            </div>
-
-        </footer>
-        <div class="copyright">
-            <h3>Copyright ©2025 Dušan Gajić 4/25 </h3>
         </div>
-</body>
+        <footer class="footer">
+                <div class="pet-stavki">
+                        <div class="logo1">
+                        <a href="index.html"><img src="assets/images/logo-removebg-preview.webp" alt="logo"></a>
+                    </div>
+                    <div class="navigacija">
+                        <div class="navigacija2">
+                            <h2>Navigacija</h2>
+                            <ul>
+                                <li><a href="index.html">Početna</a></li>
+                                <li><a href="o-nama.html">O nama</a></li>
+                                <li><a href="cenovnik.html">Cenovnik</a></li>
+                            </ul>
+                        </div>
+                        <div class="informacije">
+                            <h2>Informacije</h2>
+                            <ul>
+                                <li><a href="galerija.html">Galerija</a></li>
+                                <li><a href="kontakt.html">Kontakt</a></li>
+                                <li><a href="#">Autor</a></li>
+                            </ul>
+                        </div>                 
+                    </div>
+                    
+                    <div class="kontakt">
+                        <h2>Kontakt</h2>
+                        <h3><i class="fa-solid fa-phone"></i> 011 3290 828</h3>
+                        <h3><i class="fa-regular fa-envelope"></i> dusan.gajic.4.25@ict.edu.rs</h3>
+                        <h3><i class="fa-solid fa-location-dot"></i> Zdravka Čelara 16,11000 Beograd, Srbija</h3>
+                    </div>
+                    <div class="mreze"> 
+                        <ul>
+                            <li><a target="_blank" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>              
+                </div>
+                
+                <div class="copyright">
+                    <h3>Copyright &copy;2025 Dušan Gajić 4/25 </h3>
+                </div>
+            </footer>
+    </body>
 </html>
