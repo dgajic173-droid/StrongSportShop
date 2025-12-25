@@ -212,6 +212,11 @@
     padding: 19px;
     border-radius: 16px;
     background-color: #585555;
+    min-height: 340px;
+    justify-content: space-evenly;
+}
+.info p{
+    text-align: center;
 }
 
 .porudžbina{
@@ -224,8 +229,8 @@
 }
 
 .mapa{
-    width: 811px;
-    height: 590px;
+    width: 600px;
+    height: 540px;
     border-radius: 16px;
 }
 
@@ -294,7 +299,7 @@
 }
 
 .galerija img{
-    width: 480px;
+    width: 400px;
 }
 
 .galerija{
@@ -306,11 +311,13 @@
     padding-bottom: 111px;
     gap: 111px;
     background-color: #1e1e1e;
+
 }
 
 .creatin{
     display: flex;
-    gap: 80px;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .pozadina{
@@ -337,7 +344,7 @@
     background-size: 100%;
     background-image: url(../images/pexels2.webp);
     width: 100%;
-    height: 350px;
+    height: 300px;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -815,7 +822,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 92px; 
+    width: 100%;
     padding-top: 54px;
 }
 
@@ -832,7 +839,7 @@
 }
 
 .kreatin-amino{
-    padding: 0 32px;
+    width: 100%;
     padding-bottom: 21px;
 }
 
@@ -846,8 +853,8 @@
     background: radial-gradient(rgba(255, 255, 255, 0.025), rgba(0, 0, 0, 0.95));
     display: flex;
     color: rgb(255, 255, 255);
-    padding: 22px;
     border-radius: 16px;
+    padding: 22px;
     transition: 0.3s;
 }
 
