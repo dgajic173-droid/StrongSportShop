@@ -52,7 +52,6 @@
     font-size: 60px;
     color: #ffffff;
     text-decoration: underline;
-    animation: slide-in 1000ms;
     animation: slide 1s;
 }
 
@@ -189,7 +188,7 @@
     font-weight: 600;
 }
 
-.porucite h2{
+.porucite h1{
     display: flex;
     justify-content: center;
     font-weight: 700;
@@ -280,26 +279,26 @@
 
 .pomoc h2{
     color: #f2f2f2;
+    text-align: center;
 }
 
 .tekst{
     padding-top: 50px;
 }
 
-.tekst h2{
+.tekst h1{
     color: #f5f5f5;
-    animation: slide-in 1000ms;
     animation: slide 1s;
 }
 
 .tekst h3{
     color: #b8b8b8;
-    animation: slide-in 1000ms;
     animation: slide 2s;
 }
 
 .galerija img{
     width: 400px;
+    border-radius: 13px;
 }
 
 .galerija{
@@ -335,7 +334,6 @@
 .pozadina h1{
     font-size: 60px;
     color: #201f1f;
-    animation: slide-in 1000ms;
     animation: slide 1s;
 }
 
@@ -353,14 +351,13 @@
 
 .motivation h2{
     font-size: 50px;
-    animation: slide-in 1000ms;
     animation: slide 2s;
 }
 
 .glavna{
     background-image: url(../images/konacna\ pozadinska.webp);
     background-size: 100%;
-    height: 400px;
+    height: 340px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -392,7 +389,6 @@
 
 .ponuda{
     padding-top: 32px;
-    animation: slide-in 1000ms;
     animation: slide 3s;
 }
 
@@ -478,7 +474,6 @@
     padding-bottom: 44px;
     padding-top: 22px;
     background-color: #1e1e1e;
-
 }
 .naslov3{
     display: flex;
@@ -666,13 +661,11 @@
 .pozadina-cenovnika h1{
     font-size: 38px;
     letter-spacing: 5px;
-    animation: slide-in 1000ms;
     animation: slide 1s;
 }
 
 .pozadina-cenovnika h3{
     font-size: 21px;
-    animation: slide-in 1000ms;
     animation: slide 1s;
 }
 
@@ -990,12 +983,10 @@
 }
 
 .strong-gym-shop{
-    animation: slide-in 1000ms;
     animation: slide 1s;
 }
 
 .sve{
-    animation: slide-in 1000ms;
     animation: slide 2s;
 }
 
@@ -1025,7 +1016,6 @@
     align-items: center;
     gap: 88px;
     padding-top: 22px;
-    animation: slide-in 1000ms;
     animation: slide 1s;
 }
 
@@ -1044,7 +1034,6 @@
     align-items: center;
     gap: 88px;
     padding-top: 22px;
-    animation: slide-in 1000ms;
     animation: slide 2s;
 }
 
@@ -1058,8 +1047,12 @@
     align-items: center;
     gap: 88px;
     padding-top: 22px;
-    animation: slide-in 1000ms;
     animation: slide 3s;
+}
+.o-nama h1{
+    animation: slide 1s;
+    color: rgb(182, 180, 180);
+    padding-bottom: 33px;
 }
 
 @keyframes slide {
