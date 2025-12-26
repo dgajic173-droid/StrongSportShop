@@ -739,9 +739,10 @@
 .red-1-proteina{ 
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 92px;  
-    padding-top: 24px;
+    justify-content: space-evenly;
+    gap: 42px;  
+    padding-top: 54px;
+    text-align: center;
 }
 
 .tekst-cene{
@@ -786,9 +787,10 @@
 .red-2-workout{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 92px; 
+    justify-content: space-evenly;
+    gap: 42px; 
     padding-top: 54px;
+    text-align: center;
 }
 
 .naslovi2{
@@ -814,7 +816,7 @@
 .red-3-kreatin{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     padding-top: 54px;
 }
@@ -922,8 +924,8 @@
 .red-4-oprema{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 92px; 
+    justify-content: space-evenly;
+    gap: 34px; 
     padding-top: 54px;
 }
 
